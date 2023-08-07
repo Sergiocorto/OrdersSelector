@@ -1,0 +1,8 @@
+app_order_import_csv:
+    path: /find
+    controller: App\Controller\OrderController::find
+    methods: [GET]
+
+controllers:
+    resource: ../src/Controller/
+    type: attribute
